@@ -12,7 +12,7 @@ This script try to find the relationship between the time of the day and traffic
 
 The data is cleaned and transformed in order to get better results.
 
-It is possible to obtain a prediction of the traffic volume giving an hour. Coefficients, independent term, mean squared error and variance score are also calculated in order to get a better accuracy.
+It is possible to obtain a prediction of the traffic volume giving an specific hour. Coefficients, independent term, mean squared error and variance score are also calculated in order to get a better accuracy.
 
 Traffic data from MN Department of Transportation Weather data from OpenWeatherMap. Dataset used can be downloaded from UCI (http://archive.ics.uci.edu)
 
