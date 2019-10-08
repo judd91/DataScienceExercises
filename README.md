@@ -1,4 +1,4 @@
-# Machine Learning Exercises
+# Data Science Exercises
 
 ## Classification Problem - Spam Classifier
 
