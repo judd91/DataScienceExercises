@@ -1,5 +1,7 @@
 # Data Science Exercises
 
+Collection of simple data science challenges.
+
 ## Classification Problem - Spam Classifier
 
 The goal is to create a machine learning model to classify spam and not spam text-messages.
