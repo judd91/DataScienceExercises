@@ -4,9 +4,13 @@ Collection of simple data science challenges.
 
 ## Classification Problem - Spam Classifier
 
-The goal is to create a machine learning model to classify spam and not spam text-messages.
+The goal is to create a machine learning model to classify spam and not spam text-messages. 
+
+The dataset of labeled text messages is from the UCI Machine Learning Repository which is randomly split into a training- and test-dataset.
 
 Apache Spark ML library for scala is used to create a pipeline. The classification method applied to the training dataset is Naïve Bayes. In order to evaluate the classifier performance, MulticlassClassificationEvaluator and CrossValidator functions are used.
+
+Accuracy is calculated to get the performance of the model. In this case, the accuracy output is 0,982301 so it is a positive result. It means this pipeline classifier has a high performance and there is an evidence for taking the model trusty.
 
 ## Linear Regression - Traffic volume
 
@@ -29,7 +33,7 @@ Python language and OpenCV library are used in order to obtain basic descriptors
 Color Detector: k-means function is used to build a color histogram from an RGB image by clustering the pixel intensities. k-means is a clustering algorithm to partition n data points into k clusters. Each of them will be assigned to a cluster with the nearest mean.
 ![alt text](https://github.com/judd91/DataScienceExercises/blob/master/ImageDescriptor/Images%20Result/ColorDesc.PNG)
 
-Shape Detector: The goal is to find black shapes in the image. cv2.findContours() is used to detect the contours of the figure.
+Shape Detector: The goal is to find black shapes in the image. *cv2.findContours()* is used to detect the contours of the figure.
 ![alt text](https://github.com/judd91/DataScienceExercises/blob/master/ImageDescriptor/Images%20Result/shape.PNG)
 
 
