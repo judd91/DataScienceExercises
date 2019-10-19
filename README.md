@@ -26,6 +26,9 @@ Traffic data from MN Department of Transportation Weather data from OpenWeatherM
 
 K-means of Spark’s machine learning library(MLlib) is used on the MNIST dataset of handwritten digits (http://yann.lecun.com/exdb/mnist/) in order to get the cluster centroids. It is a scala script. The output is saved in a .csv file. Alfterwards, the centroids are visualiced in a python file using matplotlib and numpy.
 
+Example of the output:
+![alt text](https://github.com/judd91/DataScienceExercises/blob/master/Clustering/im1.jpg)
+
 ## Image Descriptor
 
 Python language and OpenCV library are used in order to obtain basic descriptors from an image.
