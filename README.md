@@ -28,6 +28,8 @@ K-means of Spark’s machine learning library(MLlib) is used on the MNIST datase
 
 Example of the output:
 ![alt text](https://github.com/judd91/DataScienceExercises/blob/master/Clustering/im1.jpg)
+![alt text](https://github.com/judd91/DataScienceExercises/blob/master/Clustering/im6.jpg)
+
 
 ## Image Descriptor
 
